@@ -6,7 +6,7 @@ function Title (){
     return (
         <div className="Title">
             <p>2*2 = {2*2}</p>
-            <p>Hii, {name}</p>
+            <p>Hii,Hello {name}</p>
             <p>Hii, {name.toUpperCase()}</p> 
         </div>
     );
