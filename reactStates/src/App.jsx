@@ -3,6 +3,7 @@ import './App.css'
 
 import LikeButton from './LikeButton.jsx'
 import LudoBoard from './LudoBoard.jsx'
+import TodoApp from './TodoApp.jsx'
 
 // function inCount() {
 //   count = count + 1;
@@ -27,7 +28,9 @@ export default function App() {
       <br />
       <LikeButton /> */}
 
-      <LudoBoard />
+      {/* <LudoBoard /> */}
+
+      <TodoApp />
     </>
   )
 }
