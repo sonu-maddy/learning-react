@@ -45,7 +45,7 @@ import "./Product.css"
 
 // conditional rendring
 // 1st type......................
-// function Product({title,price}) {
+// function Product({title,price}){
 //   if(price > 30000){
 //     return (
     

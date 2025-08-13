@@ -19,7 +19,7 @@ function ProductTab() {
   return (
     <>
         {/* passing props as number using curruly barcket */}
-         <Product  title = "phone" price = {30000} features = {features} features2 = {option}/>  {/*also passing object using {{a:"hi-tech"}} */}
+        <Product  title = "phone" price = {30000} features = {features} features2 = {option}/>  {/*also passing object using {{a:"hi-tech"}} */}
         <Product  title = "laptop" price = "40,403"/>
         <Product  title = "pen" price={70000 / 2}/>
     </>
