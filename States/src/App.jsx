@@ -5,6 +5,8 @@ import LikeButton from './LikeButton.jsx'
 import LudoBoard from './LudoBoard.jsx'
 import TodoApp from './TodoApp.jsx'
 import ItemDetails from './ItemDetails.jsx'
+import UseEffectExample from './UseEffectExample.jsx'
+import useContextLearn from './useContext/useContextLearn.jsx';
 
 // function inCount() {
 //   count = count + 1;
@@ -14,13 +16,13 @@ import ItemDetails from './ItemDetails.jsx'
 
 
 export default function App() {
-  let [count, setCount] = useState(0);
-  let inCount = () => {
-    //  let arr = useState(10);
-    //  console.log(arr);
-    setCount(count + 1);
-    console.log(count);
-  };
+  // let [count, setCount] = useState(0);
+  // let inCount = () => {
+  //   //  let arr = useState(10);
+  //   //  console.log(arr);
+  //   setCount(count + 1);
+  //   console.log(count);
+  // };
   return (
     <>
       {/* <h2>Count = {count}</h2>
@@ -33,7 +35,10 @@ export default function App() {
 
       {/* <TodoApp /> */}
       
-      <ItemDetails/>
+      {/* <ItemDetails/> */}
+
+      {/* <UseEffectExample/> */}
+      <useContextLearn/>
 
     </>
   )
